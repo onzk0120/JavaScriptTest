@@ -1,4 +1,10 @@
-let myname = "taro"
-console.log(myname)
-myname = "jiro"
-console.log(myname)
+function fun() {
+    let x = "ブロックスコープ１"
+    {
+      let y = "ブロックスコープ２"
+    }
+    console.log(x)
+    console.log(y)
+}
+  
+fun()
