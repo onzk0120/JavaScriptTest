@@ -1,10 +1,14 @@
-var str = "グローバルスコープ"
+// 足し算
+console.log(5 + 3);
 
-function fun() { 
-  var str
-  console.log(str)
-  var str = "関数スコープ"
-  console.log(str)
-}
+// 引き算
+console.log(7 - 5);
 
-fun()
+// 掛け算
+console.log(4 * 3);
+
+// 割り算
+console.log(8 / 2);
+
+// 余り
+console.log(10 % 3);
