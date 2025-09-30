@@ -1,10 +1,4 @@
-let myname = 'John';
-
-let hello = greet(myname);
-
-console.log(hello);
-
-function greet(name){
-    let greeting = 'Hello,' + name;
-    return greeting;
-}
+let myname = "taro"
+console.log(myname)
+let myname = "jiro"
+console.log(myname)
