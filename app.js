@@ -1,15 +1,9 @@
-let input = prompt('数字を入力してください');
+let score = 80;
 
-fizzBuzz(input);
-
-function fizzBuzz(num) {
-    if (num % 15 === 0) {
-        alert('FizzBuzz');
-    } else if (num % 3 === 0) {
-        alert('Fizz');
-    } else if (num % 5 === 0) {
-        alert('Buzz');
-    } else {
-        alert(num);
-    }
+if(score >= 90){
+  alert('優秀');
+} else if(score >= 60){
+  alert('合格');
+} else{
+  alert('再試験');
 }
