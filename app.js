@@ -1,15 +1,10 @@
-let input = prompt('数字を入力してください');
+let myname = 'John';
 
-fizzBuzz(input);
+let hello = greet(myname);
 
-function fizzBuzz(num) {
-    if (num % 15 === 0) {
-        alert('FizzBuzz');
-    } else if (num % 3 === 0) {
-        alert('Fizz');
-    } else if (num % 5 === 0) {
-        alert('Buzz');
-    } else {
-        alert(num);
-    }
+console.log(hello);
+
+function greet(name){
+    let greeting = 'Hello,' + name;
+    return greeting;
 }
