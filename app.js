@@ -1,3 +1,4 @@
-function 関数名(){
-  処理
+function greet(name){
+    let greeting = 'Hello,' + name;
+    return greeting;
 }
