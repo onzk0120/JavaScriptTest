@@ -1,9 +1,9 @@
-var str = "グローバルスコープ"
+let score = 80;
 
-function fun() {
-  console.log(str)
-  var y = "関数スコープ"
+if(score >= 90){
+  alert('優秀');
+} else if(score >= 60){
+  alert('合格');
+} else{
+  alert('再試験');
 }
-
-fun()
-console.log(y)
