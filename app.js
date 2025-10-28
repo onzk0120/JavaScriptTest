@@ -1,6 +1,4 @@
-let count = 30;
-
-do {
-    console.log(count);
-    count ++;
-}while(count <= 10)
+function greet(name){
+    let greeting = 'Hello,' + name;
+    return greeting;
+}
