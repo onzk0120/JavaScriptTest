@@ -1,10 +1,9 @@
 var str = "グローバルスコープ"
 
-function fun() { 
-  var str
+function fun() {
   console.log(str)
-  var str = "関数スコープ"
-  console.log(str)
+  var y = "関数スコープ"
 }
 
 fun()
+console.log(y)
