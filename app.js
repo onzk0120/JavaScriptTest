@@ -1,9 +1,3 @@
-var str = "グローバルスコープ"
-
-function fun() {
-  console.log(str)
-  var y = "関数スコープ"
+for(let i = 0; i < 6; i++){
+  console.log(i);
 }
-
-fun()
-console.log(y)
