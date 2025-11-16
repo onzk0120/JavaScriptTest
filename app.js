@@ -1,6 +1,6 @@
-let count = 30;
+let count = 0;
 
-do {
+while(count <= 10){
     console.log(count);
     count ++;
-}while(count <= 10)
+}
