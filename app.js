@@ -1,6 +1,10 @@
-let count = 30;
+var str = "グローバルスコープ"
 
-do {
-    console.log(count);
-    count ++;
-}while(count <= 10)
+function fun() { 
+  var str
+  console.log(str)
+  var str = "関数スコープ"
+  console.log(str)
+}
+
+fun()
