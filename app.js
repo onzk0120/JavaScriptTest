@@ -1,9 +1,4 @@
-var str = "グローバルスコープ"
-
-function fun() {
-  console.log(str)
-  var y = "関数スコープ"
+function greet(name){
+    let greeting = 'Hello,' + name;
+    return greeting;
 }
-
-fun()
-console.log(y)
