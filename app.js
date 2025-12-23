@@ -1,10 +1,3 @@
-function fun() {
-    let x = "ブロックスコープ１"
-    {
-      let y = "ブロックスコープ２"
-    }
-    console.log(x)
-    console.log(y)
+function 関数名(){
+  処理
 }
-  
-fun()
