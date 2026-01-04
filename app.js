@@ -1,3 +1,4 @@
-function 関数名(){
-  処理
-}
+var myname = "taro"
+console.log(myname)
+var myname = "jiro"
+console.log(myname)
