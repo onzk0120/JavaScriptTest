@@ -1,4 +1,4 @@
-const myname = "taro"
+let myname = "taro"
 console.log(myname)
-const myname = "jiro"
+myname = "jiro"
 console.log(myname)
