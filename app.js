@@ -1,9 +1,10 @@
-var str = "グローバルスコープ"
-
 function fun() {
-  console.log(str)
-  var y = "関数スコープ"
+    let x = "ブロックスコープ１"
+    {
+      let y = "ブロックスコープ２"
+    }
+    console.log(x)
+    console.log(y)
 }
-
+  
 fun()
-console.log(y)
