@@ -1,4 +1,4 @@
-function 関数名(引数){
-  処理
-　return 戻り値;
+function greet(name){
+    let greeting = 'Hello,' + name;
+    return greeting;
 }
