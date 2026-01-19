@@ -1,1 +1,4 @@
-let promptStr = prompt('数字を入力してください');
+function greet(name){
+    let greeting = 'Hello,' + name;
+    return greeting;
+}
